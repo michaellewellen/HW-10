@@ -6,4 +6,20 @@
     <RootNamespace>HW_10.Ooui</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Page1.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Page1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Page1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>
