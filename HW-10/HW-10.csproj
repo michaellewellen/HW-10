@@ -101,5 +101,11 @@
     <Resource Include="Resources\neutral.png" />
     <Resource Include="Resources\Sad.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HW-10.Shared\HW-10.Shared.csproj">
+      <Project>{55f0cafd-68a6-4b28-81f6-92e9b3cfcbc2}</Project>
+      <Name>HW-10.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

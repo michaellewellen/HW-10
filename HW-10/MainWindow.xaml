@@ -4,12 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW_10"
-        xmlns:sharedvm="clr-namespace:HW_10.Shared.ViewModel;assembly=HW_10.Shared"
+        xmlns:sharedvm="clr-namespace:HW_10.Shared.ViewModel;assembly=HW-10.Shared"
         mc:Ignorable="d"
         Title="Chapter6"
         Height="450"
         Width="650">
-    
+    <Window.DataContext>
+        <sharedvm:MortgageViewModel />
+    </Window.DataContext>
     <Window.Resources>
         <Style TargetType="TextBox">
             <Style.Triggers>

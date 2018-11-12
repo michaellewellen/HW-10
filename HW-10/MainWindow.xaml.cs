@@ -23,8 +23,7 @@ namespace HW_10
         public MainWindow()
         {
             InitializeComponent();
-            var wpfPlatformServices = new WpfPlatformServices;
-            DataContext = new MainViewModel(wpfPlatformServices);
+           
         }
 
         public void QuitGame(object sender, RoutedEventArgs e)
